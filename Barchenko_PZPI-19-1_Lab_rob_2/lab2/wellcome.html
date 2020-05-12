@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="utf-8" />
+      <title>Form</title>
+      <link href="style.css" rel="stylesheet" />
+      <script src="validation.js"></script>
+   </head>
+   <body class="formHeader" onload="getData()">
+        <h1>Wellcome User</h1>
+        <span>Your login:</span>
+        <p class="inlineValue" id="userLogin"></p>
+        <br/>
+        <span>Your passowrd:</span>
+        <p class="inlineValue" id="userPass"></p>
+        <br/>
+        <span>Your first Name:</span>
+        <p class="inlineValue" id="userFname"></p>
+        <br/>
+        <span>Your last Name:</span>
+        <p class="inlineValue" id="userLname"></p>
+        <br/>
+        <span>Your email:</span>
+        <p class="inlineValue" id="userEmail"></p>
+        <br/>
+        <span>Your phone:</span>
+        <p class="inlineValue" id="userPhone"></p>
+        <br/>
+        <span>Your student card:</span>
+        <p class="inlineValue" id="userCard"></p>
+        <br/>
+        <span>Your faculty:</span>
+        <p class="inlineValue" id="userFaculty"></p>
+        <br/>
+
+        <form autocomplete="off" method="POST" onclick="return runAutoComplete();">
+         <div class="autocomplete">
+           <input id="myInput" type="text" name="myCountry" placeholder="Country">
+         </div>    
+         <input type="submit" value="OK">
+       </form>
+   </body>
+</html>

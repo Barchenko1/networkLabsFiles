@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="utf-8" />
+      <title>Form</title>
+      <link href="style.css" rel="stylesheet" />
+      <script src="validation.js"></script>
+   </head>
+   <body>
+      <h1 class="formHeader">Registration</h1>
+      <form method="POST" name="registration" class="form" onsubmit="return formValidation();" action="wellcome.html">
+          <label>
+               <span>Login:</span>
+               <input id="login" placeholder="Login" type="text" name="login" size="20"/><br/>
+               <span id="loginError"></span>
+          </label>
+          <br/>
+          <label>
+               <span>Password:</span>
+               <input id="pass" type="text" placeholder="Password" name="pass" size="20"/><br/>
+               <span id="passError"></span>
+          </label>
+          <br/>
+          <label>
+               <span>Confirm password:</span> 
+               <input id="pass2" type="text" placeholder="Password" name="pass2" size="20"/><br/>
+               <span id="confirmPassError"></span>
+          </label>
+          <br/>
+          <label>
+               <span>Name:</span> 
+               <input id="fname" type="text" placeholder="First nane" name="fname" size="20"/><br/>
+               <span id="fnameError"></span>
+          </label>
+          <br/>
+          <label>
+             <span>Last Name:</span>
+             <input id="lname" type="text" placeholder="Second name" name="lname" size="20"/><br/>
+             <span id="lnameError"></span>
+          </label>
+          <br/>
+          <label>
+               <span>Email:</span>
+               <input id="email" type="text" placeholder="Email" name="email" size="20"/><br/>
+               <span id="emailError"></span>
+          </label>    
+          <br/>      
+          <label>
+               <span>Telephone</span>
+               <input id="telephone" type="text" placeholder="Telephone" name="phone" size="20"/><br/>
+               <span id="telephoneError"></span>
+          </label>
+          <br/>
+          <label>
+               <span>Student card:</span>
+               <input id="card" type="text" placeholder="Card" name="card" size="20"/><br/>
+               <span id="cardError"></span>
+          </label>
+          <br/>
+          <label for="faculty">Faculty:</label>
+          <select id="faculty" name="faculty">
+            <option value="Default">(Please select a faculty)</option>
+            <option value="1">1 faculty</option>
+            <option value="2">2 faculty</option>
+            <option value="3">3 faculty</option>
+            <option value="4">4 faculty</option>
+            <option value="5">5 faculty</option>
+          </select><br/>
+          <span id="facultyError"></span>
+          <br/>
+          <button class="submitBtn" type="submit" id="submit">Submit</button>
+      </form>
+     <div id="clock">
+          <span class="hour">hh</span>:<span class="min">mm</span>:<span class="sec">ss</span>
+     </div>
+     <input type="button" onclick="clockStart()" value="Start">   
+     <input type="button" onclick="clockStop()" value="Stop">  
+   </body>
+</html>

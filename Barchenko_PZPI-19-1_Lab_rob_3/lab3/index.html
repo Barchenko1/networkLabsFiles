@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="utf-8" />
+      <title>Lab 3</title>
+      <link href="style.css" rel="stylesheet" />
+        <script></script>
+   </head>
+   <body>
+    <h1 class="formHeader">Lab 3 new HTML5 form</h1>
+    <form method="POST" name="registration" class="form" onsubmit="return formValidation();" action="wellcome.html">
+        <label>
+            <span>Age:</span>
+            <input id="age" placeholder="Age" type="number" name="age" min="18" max="99" required><br/>
+       </label>
+       <br/>
+        <label>
+             <span>Datetime:</span>
+             <input id="datetime" name="datetime" required/><br/>
+        </label>
+        <br/>
+        <label>
+            <span>Email:</span>
+            <input id="email" placeholder="Email" type="email" name="email" required/><br/>
+       </label>
+       <br/>
+       <label>
+             <span>Tel:</span>
+             <input id="tel" placeholder="Tel" type="tel" name="tel" pattern="^[(]{0,1}[0-9]{3}[)]{0,1}[-\s\.]{0,1}[0-9]{3}[-\s\.]{0,1}[0-9]{4}$" required/><br/>
+        </label>
+        <br/>
+        <label>
+            <span>Url:</span>
+            <input id="url" placeholder="https://www.google.com.ua/" type="url" name="url" required/><br/>
+       </label>
+        <br/>
+        <button class="submitBtn" type="submit" id="submit">Submit</button>
+    </form>
+   </body>
+</html>

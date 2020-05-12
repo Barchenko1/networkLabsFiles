@@ -1,0 +1,21 @@
+body{
+    text-align: center;
+    background: url("img/cafe.jpg");
+    background-size: 100%;
+    left: 50%;
+    color: white;
+    padding-top: 300px;
+}
+
+.menu{
+    background: #9acd32;
+}
+
+
+.rightTable{
+    position:absolute; width:500px;right: 225px;
+}
+
+.leftTable{
+    position:absolute; width:500px; left: 225px;
+}

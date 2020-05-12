@@ -1,0 +1,20 @@
+body{
+    text-align: center;
+    background-color: aqua;
+}
+
+.formHeader{
+    padding: 60px 0 0 20px;
+}
+
+.form{
+    padding: 50px;
+    background: #ccc;
+    position: fixed; top: 50%; left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: right;
+}
+
+.submitBtn {
+    margin: 100px 0 0 0;
+}

@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="style.xsl" ?>
+
+<Catalog>
+  <MainCourse>
+    <name>Belash</name>
+    <price>11$</price>
+    <discription>
+      belash with potato 250g and souse 50g
+    </discription>
+  </MainCourse>
+  <MainCourse>
+    <name>fresh meat</name>
+    <price>15.90$</price>
+    <discription>
+      fresh meat 300g souse texas 50g
+    </discription>
+  </MainCourse>
+  <MainCourse>
+    <name>pasta soup</name>
+    <price>10.50$</price>
+    <discription>
+      pasta soup 300g,fish 100g
+    </discription>
+  </MainCourse>
+
+  <HotDish>
+    <name>fresh meat</name>
+    <price>15.90$</price>
+    <discription>
+      fresh meat with souse texas
+    </discription>
+  </HotDish>
+  <HotDish>
+    <name>Fish</name>
+    <price>22$</price>
+    <discription>
+      fish 200g, vegetables 200g
+    </discription>
+  </HotDish>
+  <HotDish>
+    <name>Chicken</name>
+    <price>45$</price>
+    <discription>
+      chicken 250g, potato 300g
+    </discription>
+  </HotDish>
+
+  <Salads>
+    <name>Vegetable plate</name>
+    <price>23$</price>
+    <discription>
+      apples 200g, tomatoes 100g, pickle cucumber 100g
+    </discription>
+  </Salads>
+  <Salads>
+    <name>Egg</name>
+    <price>25$</price>
+    <discription>
+      potato 200g, egg 150g
+    </discription>
+  </Salads>
+  <Garnish>
+    <name>rice</name>
+    <price>25$</price>
+    <discription>
+      rice 200g, souse 50g
+    </discription>
+  </Garnish>
+  <Garnish>
+    <name>porridge</name>
+    <price>25$</price>
+    <discription>
+      porridge 250g
+    </discription>
+  </Garnish>
+
+  <Drinks>
+    <name>coffee</name>
+    <price>12$</price>
+    <discription>
+      coffee 120ml
+    </discription>
+  </Drinks>
+  <Drinks>
+    <name>tea</name>
+    <price>12$</price>
+    <discription>
+      tea 120ml
+    </discription>
+  </Drinks>
+
+  <Alcohol>
+    <name>Bad gay</name>
+    <price>55$</price>
+    <discription>
+      ice 50ml rom 100ml absent 50ml
+    </discription>
+  </Alcohol>
+
+
+
+</Catalog>
+
